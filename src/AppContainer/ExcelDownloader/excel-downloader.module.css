@@ -1,0 +1,33 @@
+/* 기존 스타일 */
+.excel-dw-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.excel-dw-container.active {
+  display: flex;
+}
+
+.excel-dw {
+  padding: 10px 20px; /* 텍스트 크기에 따라 버튼 크기가 유연하게 변하도록 padding 추가 */
+  background: var(--custom-color-button-donwn-excel);
+  border-radius: 24px;
+  display: inline-flex; /* inline-flex로 설정하여 콘텐츠 크기에 맞게 조정 */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* 버튼 느낌을 주기 위해 cursor 스타일 추가 */
+  transition: background-color 0.3s; /* 마우스 호버 시 애니메이션 */
+}
+
+.excel-dw:hover {
+  background: rgb(34, 182, 125)/* 호버 시 색상 변경 */
+}
+
+.excel-dw > p {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--custom-color-on-button-donwn-excel);
+  margin: 0; /* p 태그의 기본 여백 제거 */
+}
+

@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body,
+button,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.light {
+  --custom-color-button-donwn-excel: rgb(134, 233, 183);
+  --custom-color-on-button-down-excel: rgb(11, 66, 38);
+  --custom-color-app-container: rgb(231, 236, 241);
+  --md-sys-color-primary: rgb(1 103 125);
+  --md-sys-color-surface-tint: rgb(1 103 125);
+  --md-sys-color-on-primary: rgb(255 255 255);
+  --md-sys-color-primary-container: rgb(179 235 255);
+  --md-sys-color-on-primary-container: rgb(0 31 39);
+  --md-sys-color-secondary: rgb(75 98 106);
+  --md-sys-color-on-secondary: rgb(255 255 255);
+  --md-sys-color-secondary-container: rgb(206 230 240);
+  --md-sys-color-on-secondary-container: rgb(6 30 37);
+  --md-sys-color-tertiary: rgb(89 92 126);
+  --md-sys-color-on-tertiary: rgb(255 255 255);
+  --md-sys-color-tertiary-container: rgb(223 224 255);
+  --md-sys-color-on-tertiary-container: rgb(21 25 55);
+  --md-sys-color-error: rgb(186 26 26);
+  --md-sys-color-on-error: rgb(255 255 255);
+  --md-sys-color-error-container: rgb(255 218 214);
+  --md-sys-color-on-error-container: rgb(65 0 2);
+  --md-sys-color-background: rgb(245 250 253);
+  --md-sys-color-on-background: rgb(23 28 30);
+  --md-sys-color-surface: rgb(245 250 253);
+  --md-sys-color-on-surface: rgb(23 28 30);
+  --md-sys-color-surface-variant: rgb(219 228 232);
+  --md-sys-color-on-surface-variant: rgb(64 72 75);
+  --md-sys-color-outline: rgb(112 120 124);
+  --md-sys-color-outline-variant: rgb(191 200 204);
+  --md-sys-color-shadow: rgb(0 0 0);
+  --md-sys-color-scrim: rgb(0 0 0);
+  --md-sys-color-inverse-surface: rgb(44 49 51);
+  --md-sys-color-inverse-on-surface: rgb(236 241 244);
+  --md-sys-color-inverse-primary: rgb(134 209 234);
+  --md-sys-color-primary-fixed: rgb(179 235 255);
+  --md-sys-color-on-primary-fixed: rgb(0 31 39);
+  --md-sys-color-primary-fixed-dim: rgb(134 209 234);
+  --md-sys-color-on-primary-fixed-variant: rgb(0 78 95);
+  --md-sys-color-secondary-fixed: rgb(206 230 240);
+  --md-sys-color-on-secondary-fixed: rgb(6 30 37);
+  --md-sys-color-secondary-fixed-dim: rgb(179 202 211);
+  --md-sys-color-on-secondary-fixed-variant: rgb(52 74 82);
+  --md-sys-color-tertiary-fixed: rgb(223 224 255);
+  --md-sys-color-on-tertiary-fixed: rgb(21 25 55);
+  --md-sys-color-tertiary-fixed-dim: rgb(193 196 235);
+  --md-sys-color-on-tertiary-fixed-variant: rgb(65 68 101);
+  --md-sys-color-surface-dim: rgb(214 219 221);
+  --md-sys-color-surface-bright: rgb(245 250 253);
+  --md-sys-color-surface-container-lowest: rgb(255 255 255);
+  --md-sys-color-surface-container-low: rgb(239 244 247);
+  --md-sys-color-surface-container: rgb(234 239 241);
+  --md-sys-color-surface-container-high: rgb(228 233 235);
+  --md-sys-color-surface-container-highest: rgb(222 227 230);
+}

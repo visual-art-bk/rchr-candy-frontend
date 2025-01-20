@@ -1,0 +1,103 @@
+/* 테이블 컨테이너 */
+.table-container {
+  display: none;
+  width: 100%;
+  overflow-x: auto; /* 좌우 스크롤 가능하도록 설정 */
+  margin: 0 auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.table-container.active {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+/* 반응형 스타일 - 모바일에서 테이블 스크롤 */
+@media (max-width: 768px) {
+  .table-container {
+    overflow-x: auto; /* 모바일에서 좌우 스크롤 허용 */
+    padding-top: 96px;
+  }
+  .table-container.loading {
+    padding: 0;
+  }
+  .responsive-table {
+    min-width: 600px; /* 테이블의 최소 너비 설정 */
+  }
+}
+
+/* 데이터 테이블 */
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px !important;
+  border-spacing: 0;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 16px 18px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 16px !important; /* 폰트 크기 고정 */
+}
+
+.responsive-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.responsive-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* 링크 스타일 */
+.responsive-table td a {
+  color: #0073e6;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px !important;
+}
+
+.responsive-table td a:hover {
+  text-decoration: underline;
+}
+
+/* 로딩 스피너 스타일 */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  height: 120px;
+  margin: 20px 0;
+  text-align: center;
+  color: #333;
+}
+
+.loading-container .loading-message {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .loading-container {
+    height: 100px;
+  }
+
+  .loading-container .loading-message {
+    font-size: 16px;
+  }
+}
+
+/* 홈 아이콘과 엑셀 다운로드 버튼의 여백 조정 */
+.home-icon-container {
+  margin-top: 20px; /* 상단 홈 아이콘의 여백 */
+}
+
+.excel-download-container {
+  margin-bottom: 20px; /* 하단 엑셀 다운로드 버튼의 여백 */
+}

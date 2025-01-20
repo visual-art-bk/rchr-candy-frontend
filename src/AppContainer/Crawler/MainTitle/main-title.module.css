@@ -1,0 +1,17 @@
+.rchr-main-title {
+  /* position: absolute;
+  top: 250px; */
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center; /* 전체 텍스트 중앙 정렬 */
+  overflow: hidden;
+  white-space: nowrap; /* 한 줄로 유지 */
+  width: 100%; /* 부모 요소에 맞게 전체 너비 설정 */
+}
+
+/* 작은 모바일 화면에 맞춘 스타일 */
+@media screen and (max-width: 480px) {
+  .rchr-main-title {
+    font-size: 20px;
+  }
+}
